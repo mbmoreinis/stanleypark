@@ -1,0 +1,34 @@
+/* TEMPORARY for home events */
+.wp-container-core-query-is-layout-1 .wp-block-column-is-layout-flow:last-child {
+flex-basis: 80%!important;
+padding: 20px 60px 0 0px;
+}
+
+.wp-container-core-query-is-layout-1 .wp-block-column-is-layout-flow:first-child {
+padding-right:20px!important;
+}
+
+/* For Background Images */
+.cover-contain img {
+  position:fixed;
+width:100%;;
+  margin:auto;
+  z-index:-1;
+  object-fit:contain!important;
+}
+
+/* For Background Templates */
+.page-template-wp-custom-template-sp-cover-image-page h2.wp-block-post-title {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 30px 60px 0px 60px;
+    background-color: rgba(247, 234, 94, .8);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 2.75em;
+}
+
+.page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-flow  {
+margin-block-start:0px!important;
+font-family:"Museo","Poppins",san-serif;
+}
