@@ -1,3 +1,10 @@
+/* Heading Typography */
+
+.wp-block-heading {
+margin-top:1em!important;
+color:#CF4824;
+}
+
 /* TEMPORARY for home events */
 .wp-container-core-query-is-layout-1 .wp-block-column-is-layout-flow:last-child {
 flex-basis: 80%!important;
@@ -26,9 +33,11 @@ width:100%;;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     font-size: 2.75em;
+font-family:"Museo","Poppins",san-serif;
+color:#143B2B!important
 }
 
 .page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-flow  {
 margin-block-start:0px!important;
-font-family:"Museo","Poppins",san-serif;
+;
 }
