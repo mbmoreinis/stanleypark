@@ -1,4 +1,4 @@
-/* Heading Typography */
+2/* Heading Typography */
 
 .wp-block-heading {
   margin-top:1em!important;
@@ -25,7 +25,7 @@
 }
 
 /* For Background Templates */
-.page-template-wp-custom-template-sp-cover-image-page h2.wp-block-post-title {
+.page-template-wp-custom-template-sp-cover-image-page h2.wp-block-post-title, .page-template-wp-custom-template-tec-events h2.wp-block-post-title {
   display: inline-block;
   margin-bottom: 0;
   padding: 30px 60px 0px 37px;
@@ -37,7 +37,23 @@
   color:#143B2B!important
 }
 
-.page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-flow  {
+.page-template-wp-custom-template-sp-cover-image-page .wp-block-cover-image, .page-template-wp-custom-template-sp-cover-image-page .wp-block-cover, .page-template-wp-custom-template-tec-events .wp-block-cover-image, .page-template-wp-custom-template-tec-events .wp-block-cover{
+  padding:0!important;
+}
+
+.page-template-wp-custom-template-sp-cover-image-page h4.wp-block-heading, .page-template-wp-custom-template-sp-cover-image-page h4.wp-block-heading, .page-template-wp-custom-template-tec-events h4.wp-block-heading, .page-template-wp-custom-template-tec-events h4.wp-block-heading{
+  color:#CF4824;
+}
+
+.page-template-wp-custom-template-tec-events .wp-container-core-column-is-layout-14 {
+  margin-top:15px!important;
+}
+
+.page-template-wp-custom-template-sp-cover-image-page .wp-block-query.is-layout-flow.wp-block-query-is-layout-flow, .page-template-wp-custom-template-tec-events .wp-block-query.is-layout-flow.wp-block-query-is-layout-flow {
+  margin-top:0!important;
+}
+
+.page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-flow, .page-template-wp-custom-template-tec-events .wp-block-group.has-light-color-background-color.has-background.is-layout-flow  {
   margin-block-start:0px!important;
 }
 
@@ -51,6 +67,8 @@ body.tribe-js .wp-block-group.has-light-color-background-color.has-background.is
 body.tribe-js .wp-block-group.has-light-color-background-color.has-background.is-layout-flow.wp-block-group-is-layout-flow .wp-block-post-content {
   min-width:800px!important;
 }
+
+
 
 body.tribe-js li.type-just_event {
   border-bottom:1px solid gray;
