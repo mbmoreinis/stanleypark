@@ -40,3 +40,27 @@
 .page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-flow  {
   margin-block-start:0px!important;
 }
+
+/* Temporary for Events Page */
+
+body.tribe-js .wp-block-group.has-light-color-background-color.has-background.is-layout-flow.wp-block-group-is-layout-flow {
+  min-width:835px!important;
+
+}
+
+body.tribe-js .wp-block-group.has-light-color-background-color.has-background.is-layout-flow.wp-block-group-is-layout-flow .wp-block-post-content {
+  min-width:800px!important;
+}
+
+body.tribe-js li.type-just_event {
+  border-bottom:1px solid gray;
+  margin:10px auto;
+  margin-right:50px!Important;
+}
+
+body.tribe-js li.type-just_event .wp-block-columns div:nth-child(2) h2.has-link-color.has-text-color.has-dark-color-color.wp-block-post-title.has-big-font-size {
+    background-color:white!important;
+    font-size:18pt!Important;
+    padding-left:0!Important;
+    padding-top:0!Important;
+  }
