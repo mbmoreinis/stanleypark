@@ -45,15 +45,20 @@
   color:#CF4824;
 }
 
-.page-template-wp-custom-template-tec-events .wp-container-core-column-is-layout-14 {
+.page-template-wp-custom-template-tec-events .wp-container-core-column-is-layout-14, .page-template-wp-custom-template-sp-cover-image-page .wp-container-core-group-is-layout-8 {
   margin-top:15px!important;
 }
+
+.page-template-wp-custom-template-sp-cover-image-page .wp-container-core-group-is-layout-8 .wp-container-core-columns-is-layout-3:nth-child(3) {
+  margin-top:-10px;
+}
+
 
 .page-template-wp-custom-template-sp-cover-image-page .wp-block-query.is-layout-flow.wp-block-query-is-layout-flow, .page-template-wp-custom-template-tec-events .wp-block-query.is-layout-flow.wp-block-query-is-layout-flow {
   margin-top:0!important;
 }
 
-.page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-flow, .page-template-wp-custom-template-tec-events .wp-block-group.has-light-color-background-color.has-background.is-layout-flow  {
+.page-template-wp-custom-template-sp-cover-image-page .wp-block-group.has-light-color-background-color.has-background.is-layout-constrained.wp-block-group-is-layout-constrained, .page-template-wp-custom-template-tec-events .wp-block-group.has-light-color-background-color.has-background.is-layout-flow {
   margin-block-start:0px!important;
 }
 
