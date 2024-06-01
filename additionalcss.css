@@ -25,6 +25,7 @@
 }
 
 /* For Background Templates */
+
 .page-template-wp-custom-template-sp-cover-image-page h2.wp-block-post-title, .page-template-wp-custom-template-tec-events h2.wp-block-post-title {
   display: inline-block;
   margin-bottom: 0;
@@ -34,8 +35,20 @@
   border-top-right-radius: 15px;
   font-size: 2.75em;
   font-family:"Museo","Poppins",san-serif;
-  color:#143B2B!important
+  color:#143B2B!important;
 }
+
+.wp-block-group.has-white-background-color.has-background.is-layout-constrained.wp-block-group-is-layout-constrained h2 {
+  display:inline;
+  margin: 0px;
+  padding: 5px 0px;
+  background-color: transparent;
+  border-radius:0;
+  font-size: 2.75em;
+  font-family:"Museo","Poppins",san-serif;
+  color:black!important;
+}
+
 
 .page-template-wp-custom-template-sp-cover-image-page .wp-block-cover-image, .page-template-wp-custom-template-sp-cover-image-page .wp-block-cover, .page-template-wp-custom-template-tec-events .wp-block-cover-image, .page-template-wp-custom-template-tec-events .wp-block-cover{
   padding:0!important;
