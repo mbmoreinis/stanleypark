@@ -26,6 +26,10 @@
 
 /* For Background Templates */
 
+.page-template-wp-custom-template-tec-events .wp-container-core-column-is-layout-16 {
+margin-top:15px!important;
+}
+
 .page-template-wp-custom-template-sp-cover-image-page h2.wp-block-post-title, .page-template-wp-custom-template-tec-events h2.wp-block-post-title {
   display: inline-block;
   margin-bottom: 0;
